@@ -5,7 +5,6 @@ import { AuthDto } from './dto/auth.dto';
 import { UserModel } from './user.model';
 import { genSalt, hash, compare } from 'bcryptjs';
 import { INCORRECT_PASSWORD, USER_NOT_FOUND } from './constans.auth';
-import { getJWTConfig } from 'src/config/jwt.config';
 import { JwtService } from '@nestjs/jwt';
 
 @Injectable()

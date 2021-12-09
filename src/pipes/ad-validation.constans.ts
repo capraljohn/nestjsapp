@@ -1,0 +1,1 @@
+export const NO_VALID_ERROR = 'Incorrect _id type';

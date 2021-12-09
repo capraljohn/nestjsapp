@@ -1,0 +1,1 @@
+export const PRODUCT_NOT_FOUND = 'This position not found';
